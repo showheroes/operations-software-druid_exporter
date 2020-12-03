@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=python:3.8-alpine
+ARG BASE_IMAGE=python:3.8-slim-buster
 FROM $BASE_IMAGE
 
 COPY conf/ /exporter/conf/
